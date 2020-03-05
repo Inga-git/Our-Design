@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+#biz{
+  background-color: purple;
+  color: #ffffff;
+}
+.logo h4{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.logo {
+  width: 200px;
+transform: translateY(10px)translateX(30px);
+}
+.nav{
+  text-align: center;
+  margin-top: -43px;
+  margin-left: 620px;
+}
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+.nav ul li{
+  display: inline-grid;
+  padding: 18px;
+}
+.top-section{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/Images/handshake.jpeg");
+  background-size: cover;
+  background-position: right;
+  height: 550px;
+  margin-top: -21px;
+}
+.heading{
+  text-align: center;
+  margin-top: 120px;
+  color: white;
+  font-size: 25px
+}
+.heading button{
+  background: purple;
+  color: white;
+  height: 30px;
+  border-radius: 300px;
+  border: solid red;
+}
+.heading p{
+  font-size: 10px;
+}
+#integrate{
+  color: red;
+}
+.why button{
+  background: purple;
+  color: white;
+  height: 30px;
+  border-radius: 300px;
+  border: solid red;
+}
+.content{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 75%;
+  margin: 0 auto;
+  text-align: left;
+}
+.about h4{
+  text-decoration: underline;
+}
+#about{
+  text-decoration: underline solid purple;
+  font-weight: bold;
+}
+.mid-section{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/Images/man.jpeg");
+  background-size: cover;
+  background-position: right;
+  height:500px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  grid-column-gap: 20px;
+  color: white;
+}
+.reasons{
+  border: 5px;
+}
