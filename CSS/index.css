@@ -30,7 +30,7 @@ transform: translateY(10px)translateX(30px);
   padding: 18px;
 }
 .top-section{
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/Images/handshake.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("../Images/handshake.jpeg");
   background-size: cover;
   background-position: right;
   height: 550px;
